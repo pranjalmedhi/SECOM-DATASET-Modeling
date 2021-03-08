@@ -27,7 +27,7 @@ Ftest 33.5 +-2.2 59.1 +-4.8 73.8 +-1.8
 Gram Schmidt 35.6 +-2.4 51.2 +-11.8 77.5 +-2.3
 
 
-Attribute Information:
+# Attribute Information:
 
 Key facts: Data Structure: The data consists of 2 files the dataset file SECOM consisting of 1567 examples each with 591 features a 1567 x 591 matrix and a labels file containing the classifications and date time stamp for each example.
 
@@ -36,6 +36,6 @@ As with any real life data situations this data contains null values varying in 
 The data is represented in a raw text file each line representing an individual example and the features seperated by spaces. The null values are represented by the 'NaN' value as per MatLab.
 
 
-Objective of this Project :
+# Objective of this Project :
 
 Objective is to create few Models and choose the best one to detect the Defected Items so I am compromizing with the overall Accuracy for the Highest Recall. SVM on scaled Data with 100 features giving me the Best result
